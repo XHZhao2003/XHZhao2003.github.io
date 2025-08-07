@@ -30,4 +30,4 @@ conda-forge，就是开源社区在 Anaconda.org 上维护的开源 channel。�
 最后，为了提高 conda 这个工具本身的性能，开源社区还开发出了另一个工具 Mamba。它将 conda 中运行最慢的部分，例如依赖求解器用 C++ 重新实现了，并支持了多线程下载。Mamba 被默认包含在了 Miniforge 的安装包里，不需要额外安装。它的用法与 conda 基本相同，只需要将 conda 命令替换为 mamba 命令即可。 
 
 
-内容来自：(15分钟彻底搞懂！Anaconda Miniconda conda-forge miniforge Mamba)[https://www.bilibili.com/video/BV1Fm4ZzDEeY/]
+内容来自：[15分钟彻底搞懂！Anaconda Miniconda conda-forge miniforge Mamba](https://www.bilibili.com/video/BV1Fm4ZzDEeY/)
