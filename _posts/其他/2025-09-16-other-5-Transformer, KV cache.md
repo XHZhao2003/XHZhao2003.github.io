@@ -111,7 +111,7 @@ $$
 
 $$
 \text{Concat}(
-    \text{softmax}(\frac{{Q^i}^T K^i}{\sqrt{d/8}})V^i
+    \text{softmax}(\frac{Q^{iT} K^i}{\sqrt{d/8}})V^i
 ) \times W_O
 \to E^\prime
 $$
