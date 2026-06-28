@@ -11,6 +11,7 @@ title: 分类
   {% assign categories = site.categories %}
   {% for category in categories %}
     {% assign cat_name = category[0] %}
-    <li><a href="/categories/{{ cat_name  }}/index.html">{{ cat_name }}</a></li>
+    {% assign display_name = site.data.category_names[cat_name] | default: cat_name %}
+    <li><a href="/categories/{{ cat_name }}/index.html">{{ display_name }}</a></li>
   {% endfor %}
 </ul>

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Chapter 8  Introduction to Turing Machines"
-category: "Automata-Theory"
+category: "automata-theory"
 order: "801"
 math: true
 ---

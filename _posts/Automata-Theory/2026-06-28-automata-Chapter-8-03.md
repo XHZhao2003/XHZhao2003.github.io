@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "8.2 The Turing Machine"
-category: "Automata-Theory"
+category: "automata-theory"
 order: "803"
 math: true
 ---

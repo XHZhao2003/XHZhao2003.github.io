@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "8.1 Problems that Computers Cannot Solve"
-category: "Automata-Theory"
+category: "automata-theory"
 order: "802"
 math: true
 ---
